@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Sketch|Ubuntu');
+
+body {
+    background-color: #e8e8e8;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+header {
+    margin-top: 40px;
+    font-size: 55px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.about {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.detail {
+    text-align: center; 
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 550px;
+    margin-top: 0px;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #eaeaea;
+}
+
+span {
+    visibility: hidden;
+}
+
+.cards {
+    width: 400px;
+    height: auto;
+    margin:10px;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    cursor: pointer;
+      padding: 25px;
+      color: white;
+          background-color: #0093E9;
+}
+
+button {
+    margin-top: 30px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border: #eaeaea;
+    box-shadow: 21px 21px 100px 0 rgba(141, 140, 140, 0.1);
+    background-color: #FBDA61;
+    cursor: pointer;
+}   
+
+.card-head{
+    font-size: 30px;
+    word-break: normal;
+    
+}
+
+.card-about {
+    font-size: 17px;
+    margin-top: 7px;
+}
